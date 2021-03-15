@@ -1,6 +1,6 @@
 # Wiredwiki
 
-![Wiredwiki - Entire Page](wiredwiki-app)
+![Freebie - Entire Page](wiredwiki-app.jpg)
 
 Адаптивная вёрстка шаблона **Wiredwiki**.
 
