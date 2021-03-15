@@ -22,7 +22,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#my-navbar">
     <!-- Navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
       <div class="container">
@@ -56,19 +56,19 @@
           <h2>Feedback. <small>Check out the Awesome Feedback</small></h2>
         </div>
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <blockquote>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, error deserunt nostrum asperiores laborum officiis dolores voluptatem porro facilis eveniet.</p>
               <footer>John Doe</footer>
             </blockquote>
           </div>
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <blockquote>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, error deserunt nostrum asperiores laborum officiis dolores voluptatem porro facilis eveniet.</p>
               <footer>John Doe</footer>
             </blockquote>
           </div>
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <blockquote>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, error deserunt nostrum asperiores laborum officiis dolores voluptatem porro facilis eveniet.</p>
               <footer>John Doe</footer>
@@ -165,37 +165,37 @@
         </div> <!-- End Page Header -->
 
         <div class="row">
-          <div class="col-lg-8">
+          <div class="col-sm-8">
             <h3>This is the heading</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita nam earum perspiciatis enim provident sequi, nesciunt ex fugit eligendi saepe.</p>
           </div>
-          <div class="col-lg-4">
-            <img src="img/imac.jpg" class="image-responsive" alt="iMac">
+          <div class="col-sm-4">
+            <img src="img/imac.jpg" class="img-responsive" alt="iMac">
           </div>
         </div> <!-- End Row -->
         <div class="row">
-          <div class="col-lg-8">
+          <div class="col-sm-4">
+            <img src="img/smartphone.jpg" class="img-responsive" alt="Smartphone">
+          </div>
+          <div class="col-sm-8">
             <h3>This is the heading</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita nam earum perspiciatis enim provident sequi, nesciunt ex fugit eligendi saepe.</p>
-          </div>
-          <div class="col-lg-4">
-            <img src="img/smartphone.jpg" class="image-responsive" alt="Smartphone">
           </div>
         </div> <!-- End Row -->
         <div class="row">
-          <div class="col-lg-8">
+          <div class="col-sm-8">
             <h3>This is the heading</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita nam earum perspiciatis enim provident sequi, nesciunt ex fugit eligendi saepe.</p>
           </div>
-          <div class="col-lg-4">
-            <img src="img/user.jpg" class="image-responsive" alt="User">
+          <div class="col-sm-4">
+            <img src="img/user.jpg" class="img-responsive" alt="User">
           </div>
         </div> <!-- End Row -->
 
         <hr>
 
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-sm-4">
             <div class="panel panel-default text-center">
               <div class="panel-body">
                 <span class="glyphicon glyphicon-ok"></span>
@@ -204,7 +204,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-sm-4">
             <div class="panel panel-default text-center">
               <div class="panel-body">
                 <span class="glyphicon glyphicon-star"></span>
@@ -213,7 +213,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-sm-4">
             <div class="panel panel-default text-center">
               <div class="panel-body">
                 <span class="glyphicon glyphicon-play-circle"></span>
@@ -345,8 +345,41 @@
             </form>
           </div>
         </div> <!-- End The Row -->
+
       </section>
     </div> <!-- End Container -->
+
+    <!-- Footer -->
+    <footer>
+      <hr>
+      <div class="container text-center">
+        <h3>Subscribe for more free stuff</h3>
+        <p>Enter your name and email</p>
+
+        <form action="#" class="form-inline">
+          <div class="form-group">
+            <label for="subscription">Subscribe</label>
+            <input type="text" class="form-control" id="subscription" placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="text" class="form-control" id="email" placeholder="Your email">
+          </div>
+          <button type="submit" class="btn btn-info">Subscribe</button>
+        </form>
+        <br>
+        <hr>
+
+        <ul class="list-inline">
+          <li><a href="http://twitter.com/wiredwiki">Twitter</a></li>
+          <li><a href="http://facebook.com/wiredwiki">Facebook</a></li>
+          <li><a href="http://youtube.com/wiredwiki">YouTube</a></li>
+        </ul>
+
+        <p>&copy;Copyright @ 2021</p>
+
+      </div> <!-- End Container -->
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
